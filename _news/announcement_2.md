@@ -1,12 +1,12 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: The long day has passed
+date: 2023-10-19 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+Today is sunny to cloudy, with a temperature of 13℃~26℃.It was rain heavily in the evening.
 
 ***
 
