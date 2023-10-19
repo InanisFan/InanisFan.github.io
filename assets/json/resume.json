@@ -1,35 +1,35 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Jingze Fan",
+    "label": "Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "fanjz1113@foxmail.com",
+    "phone": "010-8888888",
+    "url": "https://InanisFan.github.io/al-folio/",
+    "summary": "A student who loves learning and research.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "No.163 Xianlin Avenue",
+      "postalCode": "210023",
+      "city": "Nanjing",
+      "countryCode": "CN",
+      "region": "Jiangsu"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Weibo",
+        "username": "Jingze Fan",
+        "url": "https://weibo.com/AlbertEinstein"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "Study",
+      "position": "Student",
+      "url": "https://baidu.com",
+      "startDate": "2023-10-15",
+      "endDate": "2023-10-18",
+      "summary": "Studying for a master’s degree in journalism and communication",
       "highlights": [
         "Relativity"
       ]
@@ -38,12 +38,12 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
+      "institution": "Nanjing University,Nanjing,China",
       "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "area": "Big Data",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2023-09-01",
+      "endDate": "2026-07-01",
       "score": "",
       "courses": [
         "Theory of Relativity"
@@ -52,8 +52,8 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
+      "title": "No prize",
+      "date": "2023-10-20",
       "awarder": "Royal Swedish Academy of Sciences",
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
@@ -63,11 +63,15 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese",
       "fluency": "Native speaker"
     },
     {
       "language": "English",
+      "fluency": "Fluent"
+    }
+    {
+      "language": "Janpanese",
       "fluency": "Fluent"
     }
   ],
