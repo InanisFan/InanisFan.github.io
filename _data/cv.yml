@@ -2,17 +2,17 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Jingze Fan
     - name: Date of Birth
-      value: 14th March 1879
+      value: 11th Nov. 1999
     - name: Languages
-      value: English, German
+      value: Chinese,English,Janpanese
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
+      institution: Nanjing University,Nanjing,China.
       year: 1905
       description:
         - Description 1.
@@ -71,7 +71,7 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2019
       items: 
         - Nobel Prize in Physics 
         - Matteucci Medal
