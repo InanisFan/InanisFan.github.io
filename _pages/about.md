@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Nanjing University</a>. No163 Xianlin Avenue, Qixia District, Nanjing, Jiangsu Province, Postcode:210023 . 
+subtitle: <a href='#'>Nanjing University</a>. Nanjing, Jiangsu Province, Postcode:210023. 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>025-89683186</p>
+    <p>No.163 Xianlin Avenue, Qixia District</p>
+    <p>Nanjing, Jiangsu Province</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
