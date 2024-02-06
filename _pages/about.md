@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-范竞泽本科毕业于安徽大学广播电视学，目前就读于南京大学新闻传播学院。
+本科毕业于安徽大学广播电视学，目前就读于南京大学新闻传播学院。
 
 当前修习学位为新闻与传播专业硕士，专业方向为数字营销传播。
 
