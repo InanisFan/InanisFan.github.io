@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Nanjing University</a>. Nanjing, Jiangsu Province, Postcode:210023. 
+subtitle: <a href='#'>南京大学</a>. 江苏省, 南京市, 邮政编码:210023. 
 
 profile:
   align: right
@@ -10,8 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>025-89683186</p>
-    <p>No.163 Xianlin Avenue, Qixia District</p>
-    <p>Nanjing, Jiangsu Province</p>
+    <p>仙林大道163号, 栖霞区</p>
+    <p>江苏省, 南京市</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -19,9 +19,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Jingze Fan graduated from the Department of Radio and Television of Anhui University.He is currently studying at the School of Journalism and Communication at Nanjing University.
+范竞泽本科毕业于安徽大学广播电视学，目前就读于南京大学新闻传播学院。
 
-Now,he is studying for a master's degree in journalism and communication, with a major in digital marketing.The current research direction is big data management and marketing.
+当前修习学位为新闻与传播专业硕士，专业方向为数字营销传播。
 
-He currently lives in Qixia District, Nanjing City, Jiangsu Province. His hobbies are photography and swimming. 
+目前居于南京市栖霞区，爱好为摄影。
 
