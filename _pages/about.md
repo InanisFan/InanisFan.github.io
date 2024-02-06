@@ -13,10 +13,10 @@ profile:
     <p>仙林大道163号, 栖霞区</p>
     <p>江苏省, 南京市</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 本科毕业于安徽大学广播电视学，目前就读于南京大学新闻传播学院。
