@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: 关于我
 permalink: /
 subtitle: <a href='#'>南京大学</a>. 江苏省, 南京市, 邮政编码:210023. 
 
