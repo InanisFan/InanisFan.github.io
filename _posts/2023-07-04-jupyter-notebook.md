@@ -1,44 +1,36 @@
 ---
 layout: post
-title: a rainy day
-date: 2023-10-19 08:57:00-0400
-description: an example of a blog post with jupyter notebook
-tags: formatting jupyter
-categories: sample-posts
+title: 《西西弗神话》
+date: 2023-09-19 08:57:00-0400
+description: 加缪
+tags: 书摘
+categories: 散文集
 giscus_comments: true
 related_posts: false
 ---
 
-To include a jupyter notebook in a post, you can use the following code:
+人要死去吗，要纵身一跳解脱吗，要按照自身的尺度再造一座思想和形式的房子吗？还是正相反，把赌注下到荒诞上，进行一场揪心的豪赌呢？在这方面，我们要最后努力一下，得出我们的全部后果。躯体、温情、创造、行动、人的高尚情怀，在这无厘头的世界中，又将各就各位了。人在这世上，又终将尝到荒诞的美酒和冷漠的面包：人正是以此滋养自身的伟大。
 
-{% raw %}
+有人要荒诞人纵身一跳，荒诞人所能回答的，无非是他不大了解，事情并不一目了然，而他恰恰只想做他完全理解的事。别人却明白地告诉他，这样高傲是罪过，可是他不懂这种罪过的概念；还告诉他地狱也许就在尽头，可是他没有丰富的想象力，描绘不出这种怪异的前途是什么景象；还告诉他要丧失永生，可是他觉得永生毫无意义。有人想让他承认他有罪。他却感到自己是清白的。老实说，他只有这种感觉：他的清白是无法弥补的。正因为清白，他才敢作敢为。因此他对自身的要求，就是只同他了解的事物一起生活，处理好存在的事物，绝不让不确定的东西搀合进来。别人回答他说，什么也不能确定。可是，至少这一点是确定的。那他就同这种确定打交道：他要弄清楚，能否义无反顾地生活。
 
-```html
-{::nomarkdown}
-{% assign jupyter_path = "assets/jupyter/blog.ipynb" | relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/blog.ipynb %}{% endcapture %}
-{% if notebook_exists == "true" %}
-    {% jupyter_notebook jupyter_path %}
-{% else %}
-    <p>Sorry, the notebook you are looking for does not exist.</p>
-{% endif %}
-{:/nomarkdown}
-```
+现在，我可以谈谈自杀的概念了。有人已经感觉到可能给它什么答案。在这一点上，问题颠倒了。谈自杀之前，先得了解，人生是否有意义，是否值得一过。在这里似乎正相反：人生正因为没有意义，就更值得一过。人生经历是一种体验，遭遇一种命运，就是完全接受。然而，知道这命运是荒诞的，人就不会去经历了，除非自己千方百计，要把意识认清的这种荒诞保持在面前。否定荒诞赖以生存的对立项中的一项，就是逃避荒诞。取缔有意识的反抗，也就是回避问题。持续革命的主题，就这样转移到个人体验中了。生存，就是让荒诞随之生存。让荒诞生存，首先就是正视荒诞。同欧律狄刻相反，荒诞只有当人背离它时才会死去。
 
-{% endraw %}
+因此，唯一前后一致的哲学立场之一，就是反抗。反抗，就是人同自己的茫然、不解永恒的对抗。反抗的要求，是一种不可能达到的透明。反抗，即时时刻刻都质疑世界。反抗，就是人时时刻刻面对自身。反抗不是憧憬，反抗不抱希望。这种反抗，仅仅是确认一种不可抗拒的命运，但是缺少本应伴随这种确认的听天由命。
 
-Let's break it down: this is possible thanks to [Jekyll Jupyter Notebook plugin](https://github.com/red-data-tools/jekyll-jupyter-notebook) that allows you to embed jupyter notebooks in your posts. It basically calls [`jupyter nbconvert --to html`](https://nbconvert.readthedocs.io/en/latest/usage.html#convert-html) to convert the notebook to an html page and then includes it in the post. Since [Kramdown](https://jekyllrb.com/docs/configuration/markdown/) is the default Markdown renderer for Jekyll, we need to surround the call to the plugin with the [::nomarkdown](https://kramdown.gettalong.org/syntax.html#extensions) tag so that it stops processing this part with Kramdown and outputs the content as-is.
+也正是在这里，能看到荒诞的经验远离自杀到何等程度。可能有人认为，自杀紧随着反抗。其实不然。因为，自杀并不表明反抗的逻辑结局。自杀意味着首肯，恰恰同反抗背道而驰。自杀，同跳跃一样，接受了自己的局限性。真实尽善尽美，人又回归其本质的历史。人看清了未来，可怕的唯一未来，并且直奔而去。自杀以其方式解决了荒诞，将荒诞拖进同样的死亡。然而我知道，荒诞虽然保持状态，却不可能得到解决。荒诞在同时意识到并拒绝死亡的情况下，就逃脱了自杀。
 
-The plugin takes as input the path to the notebook, but it assumes the file exists. If you want to check if the file exists before calling the plugin, you can use the `file_exists` filter. This avoids getting a 404 error from the plugin and ending up displaying the main page inside of it instead. If the file does not exist, you can output a message to the user. The code displayed above outputs the following:
+这种反抗将自身的价值给予人生。反抗贯穿人生的始末，恢复了生存的伟大。在一个视野开阔的人看来，智力同超越他的现实搏斗的场景，比什么景象都更为壮观。
 
-{::nomarkdown}
-{% assign jupyter_path = "assets/jupyter/blog.ipynb" | relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/blog.ipynb %}{% endcapture %}
-{% if notebook_exists == "true" %}
-    {% jupyter_notebook jupyter_path %}
-{% else %}
-    <p>Sorry, the notebook you are looking for does not exist.</p>
-{% endif %}
-{:/nomarkdown}
+意识和反抗，这类拒绝与弃世背道而驰。人心中一切难以克制的、激情澎湃的力量，无不激励意识和反抗同他的生活较劲。死也不会和解，也绝不会甘愿自杀。自杀就是一种无知。荒诞人只能穷尽一切，并且耗尽自己。荒诞就是他的极度紧张，一种独自努力而不断保持的紧张状态，因为他知道，在这种日复一日的意识和反抗中，他证明着他的唯一真理，即挑战。
 
-Note that the jupyter notebook supports both light and dark themes.
+平常的人碰到荒诞之前，生活还有些目的，思虑未来，总想证实什么。他在估量自己的时机，指望以后如何如何，指望退休生活或子女工作。他还相信自己的生活能有起色。他的所作所为，还真像个自由人，即使所有事实都争相驳斥这种自由。碰到荒诞之后，什么都动摇了。
+
+荒诞是在这一点上启迪了我：人没有未来。从今往后，这就是我深度自由的缘由。深深坠入这种无底的确信中，自己的生活从此相当陌生了，没有情人那种近视目光，不在用心扩展生活，走完人生旅程，这其中就有一种解放的原则。
+
+了解人能否义无反顾地生活，我只对这一点感兴趣，丝毫也不想离开这个话题。规定给我的生活的这幅面孔，我适应得了吗？这样面对这种特殊的思虑，相信荒诞，又等于用经验的数量取代经验的质量。假使这样的生活不够诚实，那么真正的诚实又会要求我不必诚实。
+
+感受自己的生活、自己的反抗、自己的自由，而且多多益善，这就是生活，最大限度的生活。任何深度、任何感动、任何激情、任何牺牲，在荒诞人看来，也不可能使四十年有意识的生活，等同于持续六十年的清醒。
+
+阿兰说道：“祈祷，就是黑夜光顾思想。”神秘主义者和存在哲学家则回答：“然而，思想必须会合黑夜。”诚然如此，那也不是合上眼睛，仅凭人的意志产生的黑夜——不是那种精神幻生而欲迷失其中的黝黯闭合之夜。如果思想必定遇合一夜，那也应当是保持清醒的绝望之夜，应当是极地之夜，精神的不眠之夜。
+
+思想自以为能解决这种悖论，反而使之完全恢复原状了。照此情由，思想是动人心弦的。照此情由，一切都复归原位，荒诞世界也重生，尽显其壮丽辉煌和纷繁多样。
